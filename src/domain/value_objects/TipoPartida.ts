@@ -1,0 +1,1 @@
+export type TipoPartida = 'MISTA' | 'MASCULINA' | 'FEMININA';

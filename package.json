@@ -1,0 +1,27 @@
+{
+  "name": "galera-volei-full",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/infrastructure/server/app.ts",
+    "build": "tsc",
+    "start": "node dist/infrastructure/server/app.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.2"
+  },
+  "description": "This project is a reference skeleton implementing Clean Architecture / DDD for the 'Comunidade de Vôlei' domain. It includes domain entities, application use cases, in-memory repositories, controllers, routes and unit tests (Jest).",
+  "main": "jest.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
