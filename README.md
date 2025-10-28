@@ -1,9 +1,10 @@
+
+
 ````markdown
 # Galera Vôlei - API
 
 Este projeto é um esqueleto de referência implementando **Clean Architecture / DDD** para o domínio da **Comunidade de Vôlei**.  
 Inclui entidades de domínio, casos de uso da aplicação, repositórios em memória, controllers, rotas.
-````
 
 ## Funcionalidades
 
@@ -13,13 +14,11 @@ Inclui entidades de domínio, casos de uso da aplicação, repositórios em mem�
 - Controle de status de partidas (NOVA, ADESAO, ENCERRADA, REALIZADA)
 - Repositórios em memória para teste rápido sem banco de dados
 - Estrutura organizada para testes unitários
-````
+
 ## Rodando localmente
 
 1. Instale as dependências:
-
-````
-bash
+```bash
 npm install
 ````
 
@@ -48,7 +47,7 @@ O servidor iniciará em: `http://localhost:4000`
 
 * **Partidas**
 
-  * `POST /api/partidas`
+  * `POST /api/partidas` — Criar partida (caso implementado)
   * `POST /api/partidas/:partidaId/adesao` — Solicitar adesão a uma partida
 
 ## Testes
