@@ -14,11 +14,12 @@ Inclui entidades de domínio, casos de uso da aplicação, repositórios em mem�
 - Controle de status de partidas (NOVA, ADESAO, ENCERRADA, REALIZADA)
 - Repositórios em memória para teste rápido sem banco de dados
 - Estrutura organizada para testes unitários
-
+----
 ## Rodando localmente
 
 1. Instale as dependências:
-```bash
+`````
+bash
 npm install
 ````
 
